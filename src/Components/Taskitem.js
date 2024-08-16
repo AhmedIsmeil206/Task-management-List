@@ -7,7 +7,7 @@ const Taskitem = ({ task, index, markCompleted, deleteTask }) => {
         type="checkbox" 
         checked={task.completed} 
         onChange={() => markCompleted(index)} 
-      /> 
+      />
       <span style={{ textDecoration: task.completed ? 'line-through' : 'none' }}>
         {task.name}
       </span>

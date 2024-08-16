@@ -10,7 +10,6 @@ const Taskinput = ({addTask}) => {
             setTask(' ')
         }
     }
- 
   return (
     <div>
       <form onSubmit={handleSubmit}>
