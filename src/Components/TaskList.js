@@ -22,6 +22,7 @@ class TaskList extends Component {
     tasks.splice(index, 1);
     this.setState({ tasks });
   };
+  
 
   render() {
     return (
